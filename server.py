@@ -39,6 +39,7 @@ def threaded_client(conn, player):
             break
     print("Lost connection")
     conn.close()
+    exit()
 
 # Continuously listen for connections to accept
 while True: 
