@@ -1,6 +1,13 @@
 import pygame
 from network import Network
 from player import Player
+import pickle
+
+# TODO: options booleans for these settings
+# TODO: random egg move every (60 / # egg moves) levels including level 1
+
+# with open('data/moves.p', 'rb') as f:
+#     moves = pickle.load(f)
 
 width = 500
 height = 500
